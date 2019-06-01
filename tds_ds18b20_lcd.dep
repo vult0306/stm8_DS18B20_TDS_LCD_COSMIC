@@ -1,0 +1,44 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"
+
+[Root.lcd.lcd\lcd.c.Config.0]
+ExternDep= lcd\lcd.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h" lcd\lcd.h  lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h lib\inc\stm8s_clk.h  lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h lib\inc\stm8s_tim4.h  lib\inc\stm8s_i2c.h lcd\pcf8574.h src\init.h
+
+[Root.lcd.lcd\pcf8574.c.Config.0]
+ExternDep= lcd\pcf8574.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lcd\pcf8574.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h  lib\inc\stm8s_tim4.h lib\inc\stm8s_i2c.h
+
+[Root.lib.lib\src\delay.c.Config.0]
+ExternDep= lib\src\delay.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\delay.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h  lib\inc\stm8s_tim4.h lib\inc\stm8s_i2c.h
+
+[Root.lib.lib\src\stm8s_adc1.c.Config.0]
+ExternDep= lib\src\stm8s_adc1.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\stm8s_adc1.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_clk.h  lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h lib\inc\stm8s_tim4.h  lib\inc\stm8s_i2c.h
+
+[Root.lib.lib\src\stm8s_clk.c.Config.0]
+ExternDep= lib\src\stm8s_clk.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\stm8s_clk.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h lib\inc\stm8s_tim4.h  lib\inc\stm8s_i2c.h
+
+[Root.lib.lib\src\stm8s_exti.c.Config.0]
+ExternDep= lib\src\stm8s_exti.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\stm8s_exti.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_gpio.h lib\inc\stm8s_tim4.h  lib\inc\stm8s_i2c.h
+
+[Root.lib.lib\src\stm8s_gpio.c.Config.0]
+ExternDep= lib\src\stm8s_gpio.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\stm8s_gpio.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_tim4.h  lib\inc\stm8s_i2c.h
+
+[Root.lib.lib\src\stm8s_i2c.c.Config.0]
+ExternDep= lib\src\stm8s_i2c.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\stm8s_i2c.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h  lib\inc\stm8s_tim4.h
+
+[Root.lib.lib\src\stm8s_rst.c.Config.0]
+ExternDep= lib\src\stm8s_rst.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\stm8s_rst.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h  lib\inc\stm8s_tim4.h lib\inc\stm8s_i2c.h
+
+[Root.lib.lib\src\stm8s_tim4.c.Config.0]
+ExternDep= lib\src\stm8s_tim4.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  lib\inc\stm8s_tim4.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h  lib\inc\stm8s_i2c.h
+
+[Root.onewire.onewire\ds18b20.c.Config.0]
+ExternDep= onewire\ds18b20.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  onewire\ds18b20.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h  lib\inc\stm8s_tim4.h lib\inc\stm8s_i2c.h onewire\one_wire.h src\init.h
+
+[Root.onewire.onewire\one_wire.c.Config.0]
+ExternDep= onewire\one_wire.c  "C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8\mods0.h"  onewire\one_wire.h lib\inc\stm8s.h src\stm8s_conf.h lib\inc\stm8s_adc1.h  lib\inc\stm8s_clk.h lib\inc\stm8s_exti.h lib\inc\stm8s_gpio.h  lib\inc\stm8s_tim4.h lib\inc\stm8s_i2c.h src\init.h lib\inc\delay.h

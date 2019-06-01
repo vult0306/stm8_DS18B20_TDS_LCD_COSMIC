@@ -1,0 +1,12 @@
+;	STMicroelectronics Workspace file
+
+[Version]
+Keyword=ST7Workspace-V0.7
+
+[Project0]
+Filename=tds_ds18b20_lcd.stp
+Dependencies=
+[Options]
+ActiveProject=tds_ds18b20_lcd
+ActiveConfig=Debug
+AddSortedElements=1
